@@ -1,15 +1,17 @@
 // TextField'daki kutucuğun boş olduğunda hata mesajı çıkması (Form)
 // Ek olarak DropDown menü kullanımı
 
+// Form doldurma işlemlerinde veya çeşitli üyelik gerektiren uygulamalarda işe yarayabilir.
+
 import 'package:flutter/material.dart';
 
-class FormLearnView extends StatefulWidget {
-  const FormLearnView({super.key});
+class ValidateLearn extends StatefulWidget {
+  const ValidateLearn({super.key});
   @override
-  State<FormLearnView> createState() => _FormLearnViewState();
+  State<ValidateLearn> createState() => _ValidateLearnState();
 }
 
-class _FormLearnViewState extends State<FormLearnView> {
+class _ValidateLearnState extends State<ValidateLearn> {
   GlobalKey<FormState> _key = GlobalKey(); // FormState gibi durumları içinde barındırır
 
   @override
@@ -33,6 +35,7 @@ class _FormLearnViewState extends State<FormLearnView> {
               ], 
               onChanged: (value) {}),
 
+            // save tuşu
             ElevatedButton(onPressed: () {
               if (_key.currentState?.validate() ?? false) {
                 print('done');
