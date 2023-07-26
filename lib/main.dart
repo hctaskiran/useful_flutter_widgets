@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:useful_flutter_widgets/bottom_nav_bar.dart';
 import 'package:useful_flutter_widgets/validate.dart';
 
 void main() {
@@ -12,9 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,      
       theme: ThemeData(),
-      home: ValidateLearn(),
+      home: NavBarLearn(),
     );
   }
 }
