@@ -3,7 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:useful_flutter_widgets/validate.dart';
+import 'package:useful_flutter_widgets/Validate/validate.dart';
 
 class GoogleNavBarLearn extends StatefulWidget {
   const GoogleNavBarLearn({super.key});

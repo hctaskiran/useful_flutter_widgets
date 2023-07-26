@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:useful_flutter_widgets/Bottom_Nav_Bar/bottom_navigation_bar.dart';
-import 'package:useful_flutter_widgets/google_bottom_nav_bar.dart';
-import 'package:useful_flutter_widgets/validate.dart';
+import 'package:useful_flutter_widgets/Google_Bottom_Nav_Bar/google_bottom_nav_bar.dart';
+import 'package:useful_flutter_widgets/Validate/validate.dart';
 
 void main() {
   runApp(const MyApp());
