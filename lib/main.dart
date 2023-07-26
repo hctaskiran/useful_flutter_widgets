@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:useful_flutter_widgets/bottom_nav_bar.dart';
+import 'package:useful_flutter_widgets/google_bottom_nav_bar.dart';
 import 'package:useful_flutter_widgets/validate.dart';
 
 void main() {
